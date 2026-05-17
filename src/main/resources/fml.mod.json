@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "noanimalsafterbloodmoon",
+  "version": "${version}",
+  "depends": {
+    "fishmodloader": ">=3.4.2",
+    "rusted_iron_core": ">=1.5.0",
+    "many-lib": ">=2.3.0"
+  },
+  "environment": "*",
+  "name": "No Animals After Blood Moon",
+  "description": "Makes the overworld enter no-animal mode after the first Blood Moon, with optional day-based triggering and cleanup controls.",
+  "authors": [
+    "Inf1nlty"
+  ],
+  "entrypoints": {
+    "main": [
+      "com.inf1nlty.noanimalsafterbloodmoon.NoAnimalsAfterBloodMoonMod"
+    ],
+    "modmenu": [
+      "com.inf1nlty.noanimalsafterbloodmoon.compat.ModMenuImpl"
+    ]
+  },
+  "mixins": [
+    "noanimalsafterbloodmoon.mixins.json"
+  ]
+}

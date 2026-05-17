@@ -1,0 +1,28 @@
+config.menu.name.NoAnimalsAfterBloodMoon=No Animals After Blood Moon
+config.menu.comment.NoAnimalsAfterBloodMoon=Configure overworld animal spawning and no-animal mode.
+
+config.tab.noanimalsafterbloodmoon.general=General
+config.tab.noanimalsafterbloodmoon.general.comment=Master switch and no-animal trigger settings.
+config.tab.noanimalsafterbloodmoon.preBloodMoon=Before Blood Moon
+config.tab.noanimalsafterbloodmoon.preBloodMoon.comment=Animal spawning controls before the first Blood Moon or configured day.
+config.tab.noanimalsafterbloodmoon.noAnimalMode=No-Animal Mode
+config.tab.noanimalsafterbloodmoon.noAnimalMode.comment=Animal clearing and spawn blocking after no-animal mode starts.
+
+config.name.noanimalsafterbloodmoon.enableAnimalControl=Enable animal control
+config.name.noanimalsafterbloodmoon.noAnimalTriggerMode=No-animal trigger
+config.name.noanimalsafterbloodmoon.noAnimalStartDay=No-animal start day
+config.name.noanimalsafterbloodmoon.spawnBeforeFirstBloodMoon=Spawn before first Blood Moon
+config.name.noanimalsafterbloodmoon.clearAnimalsWhenNoAnimalModeStarts=Clear animals on start
+config.name.noanimalsafterbloodmoon.keepTamedAnimals=Keep tamed animals
+config.name.noanimalsafterbloodmoon.blockAnimalSpawningInNoAnimalMode=Block animal spawning
+
+config.comment.noanimalsafterbloodmoon.enableAnimalControl=Master switch for overworld animal control.
+config.comment.noanimalsafterbloodmoon.noAnimalTriggerMode=Choose when the overworld enters no-animal mode.
+config.comment.noanimalsafterbloodmoon.noAnimalStartDay=The first in-game day that can trigger no-animal mode when Day mode is selected.
+config.comment.noanimalsafterbloodmoon.spawnBeforeFirstBloodMoon=Before no-animal mode starts, reuse MITE's Blue Moon animal spawn window so the normal animal spawn checks can run.
+config.comment.noanimalsafterbloodmoon.clearAnimalsWhenNoAnimalModeStarts=Remove loaded overworld animals while no-animal mode is active.
+config.comment.noanimalsafterbloodmoon.keepTamedAnimals=Do not remove tamed wolves, cats, or horses during clearing.
+config.comment.noanimalsafterbloodmoon.blockAnimalSpawningInNoAnimalMode=Prevent new overworld animals from spawning or loading after no-animal mode starts.
+
+config.enum.noanimalsafterbloodmoon.noAnimalTriggerMode.FIRST_BLOOD_MOON=First Blood Moon
+config.enum.noanimalsafterbloodmoon.noAnimalTriggerMode.DAY=Day
